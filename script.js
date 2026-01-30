@@ -74,7 +74,7 @@ $(document).ready(function() {
                 }
                 
                 // Format based on target value
-                if (target === 15) {
+                if (target === 17) {
                     // Cost reduction - show as range
                     const value = Math.floor(current);
                     $this.text(value + '-' + (value + 5));
